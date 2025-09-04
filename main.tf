@@ -2,9 +2,9 @@ provider "aws" {
   region = "us-east-1"
 }
 
-#tfsec:ignore:aws-s3-enable-bucket-logging
+#tfsec:ignore:aws-s3-enable-bucket-loggingg
 resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-example-bucket-999"
+  bucket = "my-tf-example-rich-999"
 }
 
 resource "aws_s3_bucket_ownership_controls" "example" {
